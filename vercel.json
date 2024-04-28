@@ -6,7 +6,7 @@
     },
     {
       "src": "/.*",
-      "dest": "api/main.go"
+      "dest": "api/router.go"
     }
   ]
 }
