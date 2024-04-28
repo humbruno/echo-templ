@@ -1,7 +1,4 @@
 run:
+	@npx tailwindcss -m tailwind.css -o ./internal/public/styles.css
 	@templ generate
 	@go run .
-
-.PHONY: tailwind-watch
-css:
-	./tailwindcss -i static/css/input.css -o public/styles.css

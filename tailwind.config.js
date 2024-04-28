@@ -1,12 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./**/*.html", "./**/*.templ", "./**/*.go"],
+  content: ["./**/*.templ"],
   theme: {
-    extend: {
-      colors: {
-        clifford: "#ff0000",
-      },
-    },
+    extend: {},
   },
-  plugins: [require("@tailwindcss/forms"), require("@tailwindcss/typography")],
+  plugins: [],
 };
