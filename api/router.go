@@ -1,13 +1,15 @@
 package api
 
 import (
+	"net/http"
+
 	"github.com/a-h/templ"
 	"github.com/humbruno/echo-templ/internal/templates"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 )
 
-func Handler() {
+func Handler(w http.ResponseWriter, r *http.Request) {
 	e := echo.New()
 	e.Use(middleware.Logger())
 
