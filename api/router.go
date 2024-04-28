@@ -26,7 +26,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	e := echo.New()
 	e.Use(middleware.Logger())
 
-	e.Static("/public", "./api/public")
+	e.Static("/public", "public")
 	e.GET("/", handleHome)
 	e.Logger.Fatal(e.Start(":8000"))
 }
