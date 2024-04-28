@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/a-h/templ"
-	"github.com/humbruno/echo-templ/internal/templates"
+	"github.com/humbruno/echo-templ/views/templates"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 )
