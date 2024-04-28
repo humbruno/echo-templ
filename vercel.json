@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "src": "/public/.*",
+      "dest": "/public/.*"
+    },
+    {
+      "src": "/.*",
+      "dest": "./main.go"
+    }
+  ]
+}
